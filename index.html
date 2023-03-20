@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MANATI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./imagen/logo/logo_manati.png" class="img-fluid header-logo" alt="logo manati"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <!-- <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link disabled">Disabled</a> -->
+                </div>
+                <div class="container-fluid">
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                      <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                  </div>
+              </div>
+            </div>
+          </nav>
+
+    </header>
+    <main>
+
+      
+      <div class="container">
+
+        <!-- lista de compras -->
+        <button id="img_carrito" class="img_carrito">🛒 </button>
+        <div>
+          <div id="listaDeCompras" class="row"></div>
+        </div>
+      <!-- *********************************** -->
+        <!-- -------------------FILTRO POR CATEGORIAS------------------------- -->
+        <div>
+          <h3>buscar por categoria: </h3>
+          <select name="" id="filtroPorCategoria">
+            <option value="">BUSCAR</option>
+              <option value="gaseosa">GASEOSA</option>
+              <option value="cerveza">CERVEZA</option>
+              <option value="alfajor">ALFAJOR</option>
+              <option value="pasta">PASTAS</option>
+              <option value="chocolate">CHOCOLATE</option>
+          </select>
+          <div id = "mostrar-productos-categoria" class="row"></div>
+        </div>
+        <!-- ***************************************************************** -->
+        <!------------------ contenedor de los productos ------------------------>
+        <div>
+            <h3>Prductos</h3>
+            <div id="contenedor-productos" class="row"></div>
+        </div>
+      </div>
+      <!-- ******************************************************************* -->
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="productos.js"></script>
+    <script src="main.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
